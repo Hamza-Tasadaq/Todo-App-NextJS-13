@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .background {
+    background: linear-gradient(221.26deg, #c548ab -3.4%, #635bff 101.08%);
+  }
+  .text-gradient {
+    background: linear-gradient(
+      135deg,
+      #40ddff 0%,
+      #14bae3 19.24%,
+      #13b1e6 68.64%,
+      #11aadf 81.77%,
+      #0b98c5 100%
+    );
+  }
+  .btn-bg {
+    background: linear-gradient(
+      135deg,
+      #40ddff 0%,
+      #14bae3 19.24%,
+      #13b1e6 68.64%,
+      #11aadf 81.77%,
+      #0b98c5 100%
+    );
+  }
+}
