@@ -13,7 +13,7 @@ async function deleteTodo(id: String, refresh: () => void): Promise<void> {
 
 interface IPropType {
   id: string;
-  setShowModal: (boolean) => void;
+  setShowModal: (arg0: boolean) => void;
 }
 
 const iconStyle = { color: "white", fontSize: "1.5em" };
